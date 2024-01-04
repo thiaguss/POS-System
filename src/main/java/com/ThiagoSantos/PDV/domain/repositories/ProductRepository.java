@@ -1,4 +1,4 @@
-package com.ThiagoSantos.PDV.infrastructure.repositories;
+package com.ThiagoSantos.PDV.domain.repositories;
 
 import com.ThiagoSantos.PDV.core.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;

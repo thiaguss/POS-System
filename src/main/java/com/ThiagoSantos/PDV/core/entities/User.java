@@ -26,6 +26,13 @@ public class User {
         this.role = role;
     }
 
+    public void updateFields(User updatedUser) {
+        this.name = updatedUser.getName();
+        this.login = updatedUser.getLogin();
+        this.password = updatedUser.getPassword();
+        this.role = updatedUser.getRole();
+    }
+
     public Long getId() {
         return id;
     }

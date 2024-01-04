@@ -24,6 +24,13 @@ public class Client {
         this.phone = phone;
     }
 
+    public void updateFields(Client updatedClient){
+        this.name = updatedClient.getName();
+        this.address = updatedClient.getAddress();
+        this.email = updatedClient.getEmail();
+        this.phone = updatedClient.getPhone();
+    }
+
     public Long getId() {
         return id;
     }

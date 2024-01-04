@@ -24,6 +24,13 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public void updateFields(Product updatedProduct){
+        this.name = updatedProduct.getName();
+        this.description = updatedProduct.getDescription();
+        this.price = updatedProduct.getPrice();
+        this.quantity = updatedProduct.getQuantity();
+    }
+
     public Long getId() {
         return id;
     }
